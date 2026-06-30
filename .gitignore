@@ -1,0 +1,19 @@
+# Секреты — НИКОГДА в репозиторий
+secrets/
+*.env
+!secrets.env.example
+
+# Собранные заявки (приватные данные клиентов)
+data/leads.xlsx
+~$*.xlsx
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
